@@ -15,5 +15,3 @@ correct or even the assignment correct. You can keep attempting the assignment u
 5. Create a **live link**.
 6. Validate your URL and submit a screen shot
 7. Finally, cut and paste the _webdev_lab1_ Repository URL (**Repo Link**), GitHub Pages URL (**Live Link**), and html validation image into this assignment's turn-in post.
-
-
