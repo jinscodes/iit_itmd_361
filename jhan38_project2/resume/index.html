@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/resume.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav>
         <ul>
           <li><a href="../index.html">HomePage</a></li>
@@ -14,40 +16,62 @@
         </ul>
       </nav>
     </header>
-    <div>
-      <h1>Resume Page</h1>
-      <audio controls autoplay loop>
-        <source src="../sound/sound.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-      <p>
-        This is my resume page where you can find my resume and download it.
-        Also you can go to my github page and LinkedIn.
-      </p>
-      <p>Illinois Institute of Technology</p>
-      <p>ITMD 361</p>
-      <p>Jay Han</p>
-      <p>jhan38@hawk.illinoistech.edu</p>
+    <!--  -->
+    <div id="intro-content">
+      <div id="inner-intro-content">
+        <h1>Resume Page</h1>
+        <img src="../assets/image/bg.png" alt="Background Image" />
+        <p>
+          This is my resume page where you can find my resume and download it.
+          Also you can go to my github page and LinkedIn.
+        </p>
+        <p>Illinois Institute of Technology</p>
+        <p>ITMD 361</p>
+        <p>Jay Han</p>
+        <p>jhan38@hawk.illinoistech.edu</p>
+      </div>
     </div>
-    <div>
-      <h2>Links</h2>
+    <!--  -->
+    <div id="link-content">
+      <h2 class="h2-style">Links</h2>
       <ul>
         <li>
-          <a href="http://github.com/jinscodes" target="_blank">GitHub</a>
+          <a href="http://github.com/jinscodes" target="_blank">
+            <div class="card">
+              <img src="../assets/image/github.png" alt="GitHub" />
+              <h3 class="card-title">GitHub</h3>
+            </div>
+          </a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/jay-han-49974920a/"
             target="_blank"
-            >LinkedIn</a
           >
+            <div class="card">
+              <img
+                src="../assets/image/linkedin.png"
+                alt="LinkedIn"
+                class="card-image"
+              />
+              <h3 class="card-title">LinkedIn</h3>
+            </div>
+          </a>
         </li>
       </ul>
     </div>
-    <div>
-      <h2>Resume</h2>
-      <embed src="./resume.pdf" type="application/pdf" />
+    <!--  -->
+    <div id="resume-content">
+      <h2 class="h2-style">Resume</h2>
+      <embed src="./resume.pdf#zoom=100" type="application/pdf" />
     </div>
-    <footer>© 2025 Jay Han</footer>
+    <!--  -->
+    <footer>
+      <p>© 2025 Jay Han</p>
+      <audio controls autoplay loop>
+        <source src="./sound/sound.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </footer>
   </body>
 </html>

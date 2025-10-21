@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Page3</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/page3.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav>
         <ul>
           <li><a href="../index.html">HomePage</a></li>
@@ -14,24 +16,35 @@
         </ul>
       </nav>
     </header>
-    <div>
-      <h1>Video Profile Page</h1>
-      <audio controls loop>
-        <source src="../sound/sound.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-      <p>This is my video profile page where you can find my video profile.</p>
-      <p>Illinois Institute of Technology</p>
-      <p>ITMD 361</p>
-      <p>Jay Han</p>
-      <p>jhan38@hawk.illinoistech.edu</p>
+    <!--  -->
+    <div id="intro-content">
+      <div id="inner-intro-content">
+        <h1>Video Profile Page</h1>
+        <img src="../assets/image/bg.png" alt="Background Image" />
+        <p>
+          This is my video profile page where you can find my video profile.
+        </p>
+        <p>Illinois Institute of Technology</p>
+        <p>ITMD 361</p>
+        <p>Jay Han</p>
+        <p>jhan38@hawk.illinoistech.edu</p>
+      </div>
     </div>
-    <div>
-      <h2>Video</h2>
+    <!--  -->
+    <div id="video-content">
+      <h2 class="h2-style">Video</h2>
       <video controls>
-        <source src="../video/video.mp4" type="video/mp4" />
+        <source src="../assets/video/video.mp4  " type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
+    <!--  -->
+    <footer>
+      <p>© 2025 Jay Han</p>
+      <audio controls autoplay loop>
+        <source src="./sound/sound.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </footer>
   </body>
 </html>
