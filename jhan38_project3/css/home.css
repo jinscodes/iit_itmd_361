@@ -133,3 +133,29 @@
   color: #555;
   margin: 100px auto auto 24px;
 }
+
+/* Mobile */
+@media (min-width: 375px) and (max-width: 768px) {
+  #projects-content ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects-content ul li {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  #projects-content ul li a {
+    width: 100%;
+  }
+
+  #career-content ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #career-content ul li {
+    margin-bottom: 50px;
+  }
+}

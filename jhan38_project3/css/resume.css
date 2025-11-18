@@ -70,3 +70,27 @@
   display: block;
   margin: 0 auto;
 }
+
+/* Mobile */
+@media (min-width: 375px) and (max-width: 768px) {
+  #link-content ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #link-content ul li {
+    width: 70%;
+    height: 350px;
+    margin-bottom: 50px;
+  }
+
+  #link-content ul li a h3 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  #resume-content embed {
+    width: 90%;
+    height: 600px;
+  }
+}
