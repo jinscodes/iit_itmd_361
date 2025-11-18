@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Map</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/map.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <ul>
+          <li><a href="../index.html">HomePage</a></li>
+          <li><a href="../resume/index.html">Resume</a></li>
+          <li><a href="../page3/index.html">Video Profile</a></li>
+          <li><a href="./index.html">Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--  -->
+    <div id="intro-content">
+      <div id="inner-intro-content">
+        <h1>Map Page</h1>
+        <img src="../assets/image/bg.png" alt="Background Image" />
+        <p>This is my map page where you can find my location.</p>
+        <p>Illinois Institute of Technology</p>
+        <p>ITMD 361</p>
+        <p>Jay Han</p>
+        <p>jhan38@hawk.illinoistech.edu</p>
+      </div>
+    </div>
+    <!--  -->
+    <div id="map-content">
+      <img id="img" src="../assets/image/question.png" alt="" />
+      <div id="map"></div>
+    </div>
+    <script src="../js/map.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&libraries=marker"
+      async
+      defer
+    ></script>
+  </body>
+</html>
