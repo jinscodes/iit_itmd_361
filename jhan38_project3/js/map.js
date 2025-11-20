@@ -10,6 +10,7 @@ async function initMap() {
 		mapId: "DEMO_MAP_ID",
 	});
 
+	// feature 1
 	const marker = new google.maps.marker.AdvancedMarkerElement({
 			map,
 			position: iitChicago,
@@ -25,8 +26,8 @@ async function initMap() {
 		</div>
 	`;
 	
-
-const infowindow = new google.maps.InfoWindow({
+	// feature 2
+	const infowindow = new google.maps.InfoWindow({
     content: contents,
   });
 
@@ -37,6 +38,7 @@ const infowindow = new google.maps.InfoWindow({
     });
   });
 
+	// feature 3
 	document.getElementById("img").addEventListener("click", () => {
 		console.log("clicked");
 		alert("If you have questions, contact me at: jhan38@hawk.illinoistech.edu");
